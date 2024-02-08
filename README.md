@@ -12,4 +12,5 @@ Website about so-called visual programming language projects, paradigms, history
 ## Reading Lists
 
 * Dijkstra 1978 [On the foolishness of "natural language programming"](notes/esd-foolishness-natural-language.md)
+* Many episodes of The Future of Coding podcast
 
