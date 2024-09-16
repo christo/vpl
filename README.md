@@ -65,8 +65,10 @@ It may take significant success by more projects that adopt an alternative term 
 of a well-defined product category. Until then I'll begrudgingly use the term within this project
 and avoid it in any VPL implementation project that is informed by this research.
 
-## Reading Lists
+## Resources
 
+* [Why visual programming language projects tend to fail](ref/why-vpls-fail.chatgpt.md) according 
+to ChatGPT.
 * Dijkstra 1978 [On the foolishness of "natural language programming"](notes/esd-foolishness-natural-language.md)
 * Many episodes of The Future of Coding podcast
 
