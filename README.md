@@ -4,6 +4,8 @@
 
 Research project about so-called visual programming language projects, paradigms, history and possibilities. 
 
+[vpl on GitHub](https://github.com/christo/vpl)
+
 ## TODO
 
 * [x] github build workflow
