@@ -9,7 +9,6 @@ module Vplkb where
 import Data.List
 
 -- TODO generate markdown doc from the knowledge base
---
 
 -- replace each occurrence of a with b
 replace :: Eq a => a -> a -> [a] -> [a]
@@ -88,4 +87,5 @@ kb = [dataflow "Enso" "https://enso.org/" [ddata, proprietary ]
     ,brick    "Scratch" "https://scratch.mit.edu" [kids, mm, oss ]
     ]
 
+-- debug dump of knowledge base
 dumpKb = putStrLn $ unlines $ map show kb
