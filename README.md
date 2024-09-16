@@ -47,11 +47,12 @@ An ideal term and design vision for a VPL therefore ought to encompass construct
 which provide power and convenience for domain experts and explorers but which is evidently not code
 and is not mistaken as targeting programmers as its users.
 
-The most successful projects, such as Unreal Engine Blueprints and MIT Scratch, seem to thrive in
-the margin where game developers and kids accept that their goal is a sort of programming after
-all or they attract those who identify as programmers who overcome their natural objections of
-using a VPL instead of a textual language because of specific project circumstances (like teaching
-their kids) and compelling implementation qualities that overwhelm acknowledged misgivings.
+The most successful projects, such as [Unreal Engine Blueprints][ueb] and 
+[MIT Scratch](https://scratch.mit.edu), seem to thrive in the margin where game developers and kids
+accept that their goal is a sort of programming after all or they attract those who identify as
+programmers who overcome their natural objections of using a VPL instead of a textual language
+because of specific project circumstances (like teaching their kids) and compelling implementation
+qualities that overwhelm acknowledged misgivings.
 
 The apparent reasons for success in some VPLs also include finding a compelling domain niche,
 filling out a complete toolchain and prioritising competent visual design which is a puzzling
@@ -72,3 +73,4 @@ to ChatGPT.
 * Dijkstra 1978 [On the foolishness of "natural language programming"](notes/esd-foolishness-natural-language.md)
 * Many episodes of The Future of Coding podcast
 
+[ueb]:https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine
