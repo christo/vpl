@@ -9,7 +9,7 @@ Research project about so-called visual programming language projects, paradigms
 ## TODO
 
 * [x] github build workflow
-* [ ] github build status badge
+* [x] github build status badge
 * [ ] Try out [Hakyll](https://jaspervdj.be/hakyll/) or [Ema](https://srid.ca/ema-announce) for static site generation.
 * [ ] front-end in typescript or purescript?
 * [ ] build script for dev
