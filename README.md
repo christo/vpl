@@ -1,6 +1,6 @@
 # Visual Programming Languages
 
-Website about so-called visual programming language projects, paradigms, history and possibilities. 
+Research project about so-called visual programming language projects, paradigms, history and possibilities. 
 
 ## TODO
 
