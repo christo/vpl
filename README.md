@@ -1,5 +1,7 @@
 # Visual Programming Languages
 
+[![build status](https://github.com/christo/vpl/actions/workflows/haskell.yml/badge.svg)](https://github.com/christo/vpl/actions/workflows/haskell.yml)
+
 Research project about so-called visual programming language projects, paradigms, history and possibilities. 
 
 ## TODO
