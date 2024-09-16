@@ -20,7 +20,7 @@ name:               vpl
 -- PVP summary:     +-+------- breaking API changes
 --                  | | +----- non-breaking API additions
 --                  | | | +--- code changes with no API change
-version:            0.1.0.0
+version:            0.1.0.1
 
 -- A short (one-line) description of the package.
 synopsis:           research project for visual programming languages
@@ -68,7 +68,7 @@ executable vpl
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.16.4.0
+    build-depends:    base ^>=4.17.2.1
 
     -- Directories containing source files.
     hs-source-dirs:   app
