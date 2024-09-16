@@ -31,7 +31,7 @@ data Tag
     | TagT { name :: Name, value :: String, description :: String }
 instance Show Tag where
     show (Tag name desc) = replace ' ' '-' name
-    show tag = replace ' ' '-' (name tag) ++ ":" ++ value tag
+    show tag = replace ' ' '-' (name tag) ++ ":" ++ replace ' ' '-' (value tag)
 
 -- partials
 domain   = TagT "domain"
@@ -44,6 +44,7 @@ brickt       =  Tag     "brick" "Uses lego brick construction and layout"
 dflow        =  Tag     "dataflow" "Pipes and filters layout"
 ddata        =  domain  "data" "Intended to be used for data analysis"
 defunct      =  Tag     "defunct" "The project has been abandoned"
+gamedev      =  domain  "gamedev" "for game development"
 kids         =  Tag     "kids" "Made for kids education"
 locode       =  branded "locode" "Marketed with label: locode"
 mm           =  domain  "interactive multimedia" "for making games and animations"
@@ -59,8 +60,9 @@ image        =  domain  "image processing" "For image manipulation and compositi
 gpu          =  domain  "gpu" "Targeting the GPU"
 library      =  Tag     "library" "Packaged as a programming library"
 saas         =  Tag     "saas" "Delivered as SAAS"
+cpp          =  Tag     "c++" "implemented in c++"
 csharp       =  Tag     "c#" "implemented in c#"
-creativecode =  branded     "creative code" "marketed as for creative code"
+creativecode =  branded "creative code" "marketed as for creative code"
 
 -- function for defining a tag and its def but returns the tag for symbol binding
 desc :: Desc -> Tag
@@ -70,8 +72,10 @@ addTag :: Tag -> String -> String -> [Tag] -> Vpl
 addTag t name url tags = Vpl name url $ t:tags
 dataflow :: String -> String -> [Tag] -> Vpl
 dataflow = addTag dflow 
+brick :: String -> String -> [Tag] -> Vpl
 brick = addTag brickt
 
+kb :: [Vpl]
 kb = [dataflow "Enso" "https://enso.org/" [ddata, proprietary ]
     ,dataflow "KNIME" "https://www.knime.com/knime-analytics-platform" [ddata]
     ,dataflow "Nodes" "https://nodes.io/story/" []
@@ -84,8 +88,10 @@ kb = [dataflow "Enso" "https://enso.org/" [ddata, proprietary ]
     ,dataflow "Flume" "https://flume.dev/" [vpldev]
     ,dataflow "Fuse" "https://www.thefuselab.io/" [gpu, library]
     ,dataflow "vvvv" "https://visualprogramming.net/" [csharp, creativecode]
+    ,dataflow "Blueprint" "https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine" [cpp, gamedev]
     ,brick    "Scratch" "https://scratch.mit.edu" [kids, mm, oss ]
     ]
 
 -- debug dump of knowledge base
+dumpKb :: IO ()
 dumpKb = putStrLn $ unlines $ map show kb
