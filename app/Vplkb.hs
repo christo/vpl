@@ -1,3 +1,5 @@
+module Vplkb where
+
 
 -- experiment in using haskell to define a knowledge base of info about 
 -- visual programming languages (VPLs)
