@@ -6,10 +6,12 @@ Research project about so-called visual programming language projects, paradigms
 
 ## TODO
 
-* Try out [Hakyll](https://jaspervdj.be/hakyll/) or [Ema](https://srid.ca/ema-announce) for static site generation.
-* front-end in typescript or purescript?
-* build script for dev
-* deploy script
+* [x] github build workflow
+* [ ] github build status badge
+* [ ] Try out [Hakyll](https://jaspervdj.be/hakyll/) or [Ema](https://srid.ca/ema-announce) for static site generation.
+* [ ] front-end in typescript or purescript?
+* [ ] build script for dev
+* [ ] deploy script
 
 ## Reading Lists
 
