@@ -1,3 +1,5 @@
 dist-newstyle
 .idea
 .*.iml
+/web/_cache/
+/web/_site/
