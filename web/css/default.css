@@ -1,0 +1,211 @@
+html {
+    background-color: #26262c;
+    color: #eeeee0;
+}
+
+.lobster-regular {
+    font-family: "Lobster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 200 to 900
+*/
+
+.crimson-pro-body {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+header {
+    border-bottom: 0.2rem dotted #90b8d0aa;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    color: #77e;
+}
+
+nav a {
+    font-size: 1.8rem;
+    font-family: "Bebas Neue", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #d5b0c8;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer {
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 0.2rem dotted #90b8d0aa;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-family: "Lobster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #aec5c5;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #aec5c5;
+}
+
+article .header {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #aaa;
+}
+
+.logo a {
+    font-weight: bold;
+    color: #eeeee0;
+    text-decoration: none;
+}
+
+div.sidefeature, div.sidefeature > img {
+    float: right;
+    margin: 0 0 3rem 2rem;
+    border-radius: 40px;
+}
+
+
+@media (max-width: 319px) {
+    body {
+        width: 90%;
+        margin: 0;
+        padding: 0 5%;
+    }
+
+    header {
+        margin: 4.2rem 0;
+    }
+
+    nav {
+        margin: 0 auto 3rem;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 1rem auto 3rem;
+    }
+
+    .logo a {
+        font-size: 2.4rem;
+    }
+
+    nav a {
+        display: block;
+        line-height: 1.6;
+    }
+}
+
+@media (min-width: 320px) {
+    body {
+        width: 90%;
+        margin: 0;
+        padding: 0 5%;
+    }
+
+    header {
+        margin: 4.2rem 0;
+    }
+
+    nav {
+        margin: 0 auto 3rem;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 1rem auto 3rem;
+    }
+
+    .logo a {
+        font-size: 2.4rem;
+    }
+
+    nav a {
+        display: inline;
+        margin: 0 0.6rem;
+    }
+}
+
+@media (min-width: 640px) {
+    body {
+        width: 80rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    header {
+        margin: 0 0 3rem;
+        padding: 1.2rem 0;
+    }
+
+    nav {
+        margin: 0;
+        text-align: right;
+    }
+
+    nav a {
+        margin: 0 0 0.5rem 1.2rem;
+        display: inline;
+    }
+
+    footer {
+        text-align: right;
+    }
+
+    .logo {
+        margin: 0 0 2.5rem 0;
+        text-align: left;
+    }
+
+    .logo a {
+        float: left;
+        font-size: 3.2rem;
+    }
+}
