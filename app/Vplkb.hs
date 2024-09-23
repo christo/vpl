@@ -25,8 +25,7 @@ instance Show Vpl where
     show (Vpl name url ts) = unwords $ [name, url] ++ map show ts 
 
 -- tag can be niladic or unary 
--- TODO don't like having different constructor names
-data Tag 
+data Tag
     = Tag { name :: Name, description :: String }
     | TagT { name :: Name, value :: String, description :: String }
 instance Show Tag where
