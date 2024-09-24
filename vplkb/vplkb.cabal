@@ -54,11 +54,11 @@ extra-doc-files:    CHANGELOG.md
 common warnings
     ghc-options: -Wall
 
-library vpl
+library
     -- Import common warning flags.
     import:           warnings
 
-    exposed-modules:  Vplkb
+    exposed-modules:  VplKb
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:

@@ -1,7 +1,8 @@
 packages:
-  ./vplkb
-  ./web
+  ./vplkb/
+  ./web/
 
 package *
   haddock-options: --hyperlinked-source --html --quickjump
 
+with-compiler: ghc-9.4.8
