@@ -2,7 +2,8 @@
 
 [![build status](https://github.com/christo/vpl/actions/workflows/haskell.yml/badge.svg)](https://github.com/christo/vpl/actions/workflows/haskell.yml)
 
-Research project about so-called visual programming language projects, paradigms, history and possibilities. 
+Research project about so-called visual programming language projects,
+paradigms, history and possibilities.
 
 [vpl on GitHub](https://github.com/christo/vpl)
 
@@ -10,20 +11,20 @@ Research project about so-called visual programming language projects, paradigms
 
 * [x] github build workflow
 * [x] github build status badge
-* [ ] Try out [Hakyll](https://jaspervdj.be/hakyll/) or [Ema](https://srid.ca/ema-announce) for static site generation.
-* [ ] front-end in typescript or purescript?
+* [x] Try out [Hakyll](https://jaspervdj.be/hakyll/) or [Ema](https://srid.ca/ema-announce) for static site generation.
 * [ ] build script for dev
 * [ ] deploy script
 
 ## "Visual Programming Languages" Suck
 
-The first problem with Visual Programming Languages (VPLs) is the name. I'm using it because I know
-no better name in wide use.
+The first problem with Visual Programming Languages (VPLs) is the name. I'm
+using it because I know no better name in wide use.
 
-It stands to reason that anything called a "visual programming language" ought to be a programming
-language and this is, by definition what programmers use. The fundamental conflict here is that the
-design goals of many VPLs target self-identified non-programmers, casual programmers and learners,
-many of whom have allergies to being identified as a programmer and this forms a barrier to
+It stands to reason that anything called a "visual programming language" ought
+to be a programming language and this is, by definition what programmers use.
+The fundamental conflict here is that the design goals of many VPLs target
+self-identified non-programmers, casual programmers and learners, many of whom
+have allergies to being identified as a programmer and this forms a barrier to
 adoption.
 
 Programmers appear to dislike VPLs, probably because they are self-selected for the traditional
@@ -35,10 +36,10 @@ textual programming is so dominant that the term "textual programming" borders o
 and user relief from the difficulties assumed to be inherent in the textual form is near-universally
 promised as the primary VPL project success condition.
 
-Consequently the term "Visual Programming Language" simultaneously alienates the target userbase
+Consequently the term "Visual Programming Language" simultaneously alienates the target user base
 while speaking to the group least likely to want it.
 
-Alternative terms like __nocode__ and __locode__ suffer from the same problem: likewise defining
+Alternative terms like __no-code__ and __low-code__ suffer from the same problem: likewise defining
 themselves by what they are not; a contrast to coding (programming). This strategy of identity
 denial does not appear to be convincing to either target users who claim they can't code or career
 programmers who prefer text.
