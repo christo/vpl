@@ -32,10 +32,16 @@ instance Show Tag where
   show tag = replace ' ' '-' (name tag) ++ ":" ++ replace ' ' '-' (value tag)
 
 -- partials
+
+-- makes a function that tags the Vpl as being focused on a given domain
 domain :: String -> String -> Tag
 domain = TagT "domain"
+
+-- specifies the primary implementation language
 il :: String -> String -> Tag
 il = TagT "implementation language"
+
+-- the description for branded foo is "branded as foo"
 branded :: String -> String -> Tag
 branded = TagT "marketed as"
 
@@ -43,6 +49,7 @@ branded = TagT "marketed as"
 desc :: Desc -> Tag
 desc (Desc t _) = t
 
+-- the knowledge base
 kb :: Kb
 kb =
   -- first define tags
@@ -97,6 +104,6 @@ kb =
       , Vpl "Appian" "https://appian.com" [lowcode, mobileapp]
       ]
 
--- debug dump of knowledge base
+-- for debugging: dump knowledge base
 dumpKb :: IO ()
 dumpKb = putStrLn $ unlines $ map show kb
