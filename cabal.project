@@ -1,0 +1,7 @@
+packages:
+  ./vplkb
+  ./web
+
+package *
+  haddock-options: --hyperlinked-source --html --quickjump
+

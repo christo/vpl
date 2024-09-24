@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import           Hakyll
-
+import           VplKb
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -57,7 +57,18 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateBodyCompiler
 
+{-
+    -- TODO make a list of vpls driven by VplKb
+    -- TODO learn how to do multi-module project in cabal
+    -- TODO define VplKb and web as two modules
+    -- TODO here import VplKb from its module
+    -- TODO drive list.html page generation using a template
+    create ["list.html"] $ do
+      route idRoute
+      compile $ do
+        vpls <-
 
+-}
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =

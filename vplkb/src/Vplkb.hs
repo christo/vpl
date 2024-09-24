@@ -5,7 +5,7 @@ module Vplkb where
 --
 --
 
-import Data.List
+import Data.List()
 
 -- TODO generate markdown doc from the knowledge base
 
@@ -43,7 +43,7 @@ branded = TagT "marketed as"
 desc :: Desc -> Tag
 desc (Desc t _) = t
 
-kb :: [Vpl]
+kb :: Kb
 kb =
   -- first define tags
   let arduino = domain "arduino" "can be used to program arduinos"
